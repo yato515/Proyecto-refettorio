@@ -1,0 +1,76 @@
+configuración del correo y usuario
+git config --global user.name "usuario"
+
+para confirmar el usuario ponemos:
+git config user.name
+
+configurar el correo:
+git config --global user.email "correo" (de preferencia no el correo personal)
+
+git config user.email
+
+fetch bajar los datos de github
+pull subir archivos a github
+
+
+
+CREACION DE UN REPOSITORIO 
+estara almacenado en nuestra computadora y nos ubicamos en documentos
+
+1- crear carpeta: mkdir "nombre-de-carpeta"
+
+2.- crear repositorio: git init
+
+esto es para ponerle un nuevo nombre a la rama principal:
+git config --global init.defaultBranch main
+
+ELIMINAR RAMA:
+solo entra a donde la creaste, le das a ver contenido oculto y eliminar la rama creada (la carpeta.git)
+
+Letras:
+U = Archivo nuevo (no rastreado) git add archivo.ext
+
+remover de area de preparacion: 
+git rm --cached mi-archivo.txt
+
+A = Agregado al staging
+
+hacer la modificacion:
+git add nombre_del_archivo
+
+
+git status = para ver losarchivos sin subir aun en rojo o verde
+
+CREACION DE COMMIT
+git commit -m "agregar archivo" = lleva del area de preparacion al proyecto
+
+git log = ver el historial de los commits
+git log --oneline = ver el historial de los commits en una sola linea
+
+
+MODIFICAR COMMIT:
+git commit --amend (hacerlo local)
+
+REVERTIR EL ULTIMO COMMIT
+git reset --soft HEAD~1
+
+CREAR UNA NUEVA RAMA:
+git branch version-javascript
+
+VER RAMAS:
+git branch
+
+VER LOSARCHIVOS EN LA NUEVA RAMA (sin afectar el main):
+git-checkout version-javascript
+
+
+FUSIONAR RAMAS:
+debes estar en la rama en la que quieres agregar la nueva rama 
+
+git merge NAMERAMA
+
+en lugar de name rama ponemos el nombre de la rama que queremos fusionar
+
+CLONAR REPOSITORI:
+git clone linkHHTP-github 
+para trabajar en el repositorio tienes que estar en la carpeta y repositorio que clonaste
