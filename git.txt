@@ -73,4 +73,4 @@ en lugar de name rama ponemos el nombre de la rama que queremos fusionar
 
 CLONAR REPOSITORI:
 git clone linkHHTP-github 
-para trabajar en el repositorio tienes que estar en la carpeta y repositorio que clonaste 
+para trabajar en el repositorio tienes que estar en la carpeta y repositorio que clonaste
