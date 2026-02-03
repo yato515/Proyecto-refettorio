@@ -39,7 +39,7 @@
 
             <div class="enlace">
                 <i class="bx bx-user"></i>
-                <span>Gestión de usuarios</span>
+                <span><a href="../Proyecto-refettorio/GestionUsuarios.php">Gestion de Usuarios</a></span>
             </div>
 
             <div class="enlace">
